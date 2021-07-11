@@ -1,0 +1,184 @@
+/* tablet */
+@media all and (max-width: 992px) {
+  .img-wrapper {
+    height: 480px;
+    margin: 20px 0px;
+  }
+  .text-justify {
+    margin-top: 5%;
+  }
+  .card-wrapper {
+    height: 350px;
+    margin: -50px 0 20px 0;
+    padding: 60px 10px 10px 10px;
+  }
+  /* groom */
+  .mempelai img {
+    height: 120px;
+    width: 120px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-mempelai-w,
+  .img-mempelai-p {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-wrapper {
+    width: 80%;
+    margin: 0px 10%;
+  }
+  .atas,
+  .bawah {
+    text-align: center;
+  }
+  .name-mempelai {
+    padding: 0px;
+  }
+  .wrapper {
+    background-image: linear-gradient(rgba(57, 83, 142, 0.5), rgba(57, 83, 142, 0.5)), url(../img/background_portrait_1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper h2 {
+    font-size: 42px;
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper p {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+  }
+  .hitung-mundur h2 {
+    font-size: 28px;
+  }
+
+  .pesan-wrapper {
+    width: 80%;
+    margin: 0px 10%;
+  }
+  .gmaps-wrapper,
+  .wed-gift,
+  .prokes-wrapper {
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+  }
+  .gmaps-wrapper {
+    padding-bottom: 30px;
+  }
+  .prokes {
+    margin: 5px 0;
+  }
+  .footer {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/background_portrait_1.jpg);
+    background-position: center;
+  }
+}
+/* Samartphone */
+@media all and (max-width: 576px) {
+  .head-wrapper {
+    background: url(../img/background_portrait_1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .head {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .wrapper-top {
+    position: absolute;
+    top: 10%;
+    width: 65%;
+  }
+  .wedding h2 {
+    font-size: 48px;
+  }
+  .wedding h3 {
+    text-shadow: 1px 2px 3px rgb(42, 70, 133);
+  }
+  .card-wrapper {
+    height: 450px;
+    margin: -50px 0 20px 0;
+    padding: 40px 10px 10px 10px;
+  }
+  .img-wrapper {
+    height: 480px;
+    margin: 20px 0px;
+  }
+  .text-justify {
+    margin-top: 3%;
+  }
+  /* groom */
+  .mempelai img {
+    height: 120px;
+    width: 120px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-mempelai-w,
+  .img-mempelai-p {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .atas,
+  .bawah {
+    text-align: center;
+  }
+  .name-mempelai {
+    padding: 0px;
+  }
+  .wrapper {
+    background-image: linear-gradient(rgba(57, 83, 142, 0.6), rgba(57, 83, 142, 0.5)), url(../img/background_portrait_1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper h2 {
+    font-size: 42px;
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper p {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+  }
+  .hitung-mundur h2 {
+    font-size: 20px;
+  }
+  .pesan-wrapper {
+    width: 80%;
+    margin: 0px 10%;
+  }
+  .form-wrapper {
+    width: 80%;
+    margin: 0px 10%;
+  }
+  .gmaps-wrapper,
+  .wed-gift,
+  .prokes-wrapper {
+    width: 90%;
+    margin: 15px 0 0 5%;
+    padding: 0;
+  }
+  .gmaps-wrapper {
+    padding-bottom: 30px;
+  }
+  .prokes {
+    margin: 5px 0;
+  }
+  .play {
+    left: 10px;
+  }
+}

@@ -1,0 +1,357 @@
+/* default */
+html,
+body {
+  height: 100%;
+  font-family: Caviar_Dreams;
+  background: url(../img/paper.jpg);
+  background-size: cover;
+}
+/* head */
+.hidden {
+  display: none;
+}
+.head-wrapper {
+  position: relative;
+  height: 100%;
+  background: url(../img/background_L1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.head {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.wrapper-top {
+  position: absolute;
+  bottom: 18%;
+  width: 65%;
+}
+.wrapper-top h3 {
+  font-family: optimus;
+  font-size: 32px;
+}
+.wrapper-bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 65%;
+}
+.wedding h5 {
+  font-size: 20px;
+  /* text-shadow: 1px 2px 3px rgb(42, 70, 133); */
+}
+.wedding h3 {
+  font-size: 20px;
+}
+.wedding h2 {
+  font-family: Reman;
+  font-size: 64px;
+  text-shadow: 1px 2px 3px rgb(42, 70, 133);
+}
+.tombol {
+  background: rgba(42, 70, 133, 0.7);
+  font-size: 16px;
+  color: white;
+}
+.tombol:hover {
+  background: rgba(42, 70, 133, 1);
+  color: rgb(197, 199, 202);
+}
+/* Front view */
+i.fas {
+  font-size: 20px;
+}
+.img-wrapper {
+  height: 600px;
+  border-radius: 20px;
+  background: url(../img/Background_portarait2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin: 15px -40px 30px 20px;
+  box-shadow: 2px 2px 5px rgb(42, 70, 133);
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.card-wrapper {
+  background: rgb(197, 199, 202);
+  box-shadow: 2px 2px 5px rgb(42, 70, 133);
+  height: 600px;
+  margin: 30px 40px 5px -20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.text-justify {
+  margin-top: 30%;
+  margin-bottom: 25%;
+}
+.waves img {
+  transform: rotate(180deg);
+  width: 100%;
+}
+/* Groom */
+.mempelai {
+  padding: 20px 0;
+  background-image: linear-gradient(rgb(57, 83, 142), rgb(201, 203, 206));
+  color: white;
+}
+.mempelai img {
+  border-radius: 50%;
+  border: 2px solid rgb(164, 188, 232);
+  box-shadow: 5px 5px 8px rgb(147, 150, 159);
+}
+.img-mempelai-w {
+  float: right;
+  margin: 20px;
+}
+.img-mempelai-p {
+  float: left;
+  margin: 20px;
+}
+.name-mempelai {
+  margin: 20px;
+  padding-top: 80px;
+}
+.mempelai h2 {
+  font-family: reman;
+  font-size: 58px;
+  font-weight: bold;
+  text-shadow: 2px 3px 5px rgb(147, 150, 159);
+  color: rgb(164, 188, 232);
+}
+.mempelai p {
+  color: rgb(164, 188, 232);
+}
+.atas {
+  text-align: right;
+}
+.bawah,
+.atas {
+  color: rgb(42, 70, 133) !important;
+}
+.waves2 img {
+  margin-top: -100;
+  width: 100%;
+}
+/* akad */
+.wrapper {
+  background-image: linear-gradient(rgba(57, 83, 142, 0.5), rgba(57, 83, 142, 0.5)), url(../img/backgroun_l2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgb(147, 150, 159);
+  padding: 30px;
+  color: white;
+}
+.wrapper h2 {
+  font-family: Reman;
+  margin-top: 15px;
+  font-size: 64px;
+  text-shadow: 3px 3px 5px rgb(164, 188, 232);
+}
+.hitung-mundur h2 {
+  font-family: Caviar_Dreams;
+  font-size: 42px;
+}
+.isi {
+  height: 500px;
+}
+/* .gmaps {
+  margin: 10px 0 50px;
+  background-color: rgb(147, 150, 159);
+  color: white;
+}
+.gmaps:hover {
+  background-color: rgba(147, 150, 159, 0.8);
+  color: rgb(164, 188, 232);
+} */
+/* Carousel */
+.waves3 img {
+  transform: rotate(180deg);
+  width: 100%;
+}
+.waves4 img {
+  width: 100%;
+}
+.carousel img {
+  padding: 15px;
+  cursor: pointer;
+}
+.modal-content {
+  max-height: 720px;
+  padding: 0px;
+}
+.modal-content img {
+  padding: 0px;
+}
+.carousel {
+  background-image: linear-gradient(rgb(201, 203, 206), rgb(57, 83, 142));
+}
+/* mesages */
+.pesan-wrapper {
+  height: 300px;
+  overflow: scroll;
+}
+.form {
+  padding: 20px;
+}
+.form button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.waves5 img {
+  width: 100%;
+  transform: rotate(180deg);
+}
+/* maps */
+.gmaps {
+  padding-top: 10px;
+  height: 300px;
+  margin: 10px;
+}
+.gmaps-wrapper {
+  background: rgb(197, 199, 202);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(164, 188, 232, 0.7);
+  margin-top: 10px;
+  padding-bottom: 25px;
+  border: 1px solid rgb(57, 83, 142);
+}
+.maps {
+  background: rgb(57, 83, 142);
+  margin: 0;
+  padding-bottom: 45px;
+  color: rgb(42, 70, 133);
+}
+.btn-gmaps {
+  width: 100%;
+  height: 40px;
+}
+.btn-gmaps button {
+  width: 80%;
+  height: 100%;
+  padding: 5px auto;
+  background: rgb(164, 188, 232);
+  margin: 15px 0px;
+  color: rgb(42, 70, 133);
+}
+.btn-gmaps button:hover {
+  background: rgba(164, 188, 232, 0.7);
+  color: black;
+}
+.prokes {
+  color: rgb(42, 70, 133);
+  padding: 20px;
+  background: rgb(197, 199, 202);
+  border: 1px solid rgb(57, 83, 142);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(164, 188, 232, 0.7);
+  margin: 30px 30px 0px -30px;
+  padding-bottom: 25px;
+  height: 100%;
+}
+.prokes h3 {
+  padding: 10px;
+}
+.prokes i.fas {
+  font-size: 80px;
+  padding: 20px 0;
+}
+.waves6 img {
+  width: 100%;
+  opacity: 1.2;
+}
+.waves6 {
+  height: 200px;
+}
+.wed-gift {
+  background: rgb(197, 199, 202);
+  padding: 30px;
+  border: 1px solid rgb(57, 83, 142);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+}
+.wed-btn {
+  font-family: optimus;
+  width: 50%;
+  margin: 15px 25%;
+  color: rgb(197, 199, 202);
+  background-color: rgb(42, 70, 133);
+  border: 2px solid rgb(42, 70, 133);
+}
+.wed-btn:hover {
+  background-color: rgb(197, 199, 202);
+  color: rgb(42, 70, 133);
+}
+.wed-gift .modal {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.modal-body .btn:hover {
+  color: rgba(0, 0, 0, 0.7);
+  border: 2px solid black;
+}
+.maps h2 {
+  font-family: tahu;
+  font-weight: bold;
+  font-size: 56px;
+}
+.footer {
+  height: 620px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/background_L1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: -200px;
+}
+.head-footer {
+  padding-top: 420px;
+  font-family: apalu;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(42, 70, 133, 0.7);
+}
+.head-footer h2 {
+  font-family: optimus;
+  font-size: 32px;
+}
+.head-footer h1 {
+  font-size: 64px;
+}
+footer {
+  font-family: tahu;
+  background: rgba(42, 70, 133, 0.7);
+  padding: 50px 0px;
+  color: black;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* tombol play */
+.play {
+  background: rgb(42, 70, 133);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  position: fixed;
+  font-size: 15px;
+  bottom: 75px;
+  left: 75px;
+  cursor: pointer;
+  z-index: 99;
+  border: rgb(164, 188, 232);
+  box-shadow: 2px 2px 5px rgb(147, 150, 159);
+}
+.play i {
+  font-size: 15px;
+  padding-left: 30%;
+  padding-top: 25%;
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "apalu";
+  src: url(../fonts/Apalu_script_by_khurasan.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: mini story;
+  src: url(../fonts/MiniStory_by_khurasan.ttf);
+}
+@font-face {
+  font-family: Tahu;
+  src: url(../fonts/Tahu!_script_by_khurasan.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Caviar_Dreams";
+  font-weight: normal;
+  src: url(../fonts/CaviarDreams_by_laurent_thompson.ttf);
+}
+@font-face {
+  font-family: "Optimus";
+  font-weight: normal;
+  src: url(../fonts/OptimusPrinceps.ttf);
+}
+@font-face {
+  font-family: "kenyan";
+  src: url(../fonts/kenyan\ coffee\ rg.ttf);
+}
+@font-face {
+  font-family: Reman;
+  src: url(../fonts/Reman_script_by_khurasan.ttf);
+}
